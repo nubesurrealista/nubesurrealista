@@ -1,5 +1,5 @@
-<picture decoding="async" loading="lazy">
-  <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=<nubesurrealista>&theme=summer">
-  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?nubesurrealista=<username>&screen_effect=true&theme=blue_chill">
-  <img alt="github stats" src="https://pixel-profile.vercel.app/api/github-stats?username=<username>&theme=summer">
-</picture>
+# Nube
+
+![Stats1](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nubesurrealista&theme=material_palenight)
+
+![Stats2](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nubesurrealista&theme=material_palenight)

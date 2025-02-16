@@ -29,7 +29,8 @@ jobs:
 
       - name: Update README
         run: |
-          sed -i '/<!-- BLOG-POST-START -->/,/<!-- BLOG-POST-END -->/c\<!-- BLOG-POST-START -->\n'$(cat latest_post.md)'\n<!-- BLOG-POST-END -->' README.md
+          latest_post=$(cat latest_post.md)
+          sed -i '/<!-- BLOG-POST-START -->/,/<!-- BLOG-POST-END -->/c\<!-- BLOG-POST-START -->\n'"${latest_post}"'\n<!-- BLOG-POST-END -->' README.md
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md

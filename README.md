@@ -11,5 +11,5 @@
 
 ## Última publicación en el blog
 <!-- BLOG-POST-START -->
-[Novedades y divagaciones sobre el blog](https://nube.bearblog.dev/novedades/)
+[¿Linux es difícil? Pequeña reflexión](https://nube.bearblog.dev/linux_dificil/)
 <!-- BLOG-POST-END -->

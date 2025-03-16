@@ -13,5 +13,5 @@ Donations/Donaciones: https://paypal.me/dsk496
 
 ## Última publicación en el blog
 <!-- BLOG-POST-START -->
-[¿Linux es difícil? Pequeña reflexión](https://nube.bearblog.dev/linux_dificil/)
+[Limitaciones técnicas](https://nube.bearblog.dev/lowspec/)
 <!-- BLOG-POST-END -->

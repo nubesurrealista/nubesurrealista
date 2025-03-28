@@ -13,5 +13,5 @@ Donations/Donaciones: https://paypal.me/dsk496
 
 ## Última publicación en el blog
 <!-- BLOG-POST-START -->
-[Limitaciones técnicas](https://nube.bearblog.dev/lowspec/)
+[Videojuegos de código abierto](https://nube.bearblog.dev/opensourcegames/)
 <!-- BLOG-POST-END -->

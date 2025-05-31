@@ -2,16 +2,14 @@
 
 ![Konata Lucky Star](https://media1.tenor.com/m/ROTT22u3Vr0AAAAC/konata-lucky-star.gif)
 
-### Traduzco y paso el rato
-**ES/EN**
-
-Donations/Donaciones: https://paypal.me/dsk496
+### Traduciendo cosas que me gustan - Translating things I like - 翻译我喜欢的东西
+**ES/EN/CN?**
 
 ![Stats1](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nubesurrealista&theme=material_palenight)
 
 ![Stats2](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nubesurrealista&theme=material_palenight)
 
-## Última publicación en el blog
+## Última publicación en el blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
 [Videojuegos de código abierto](https://nube.bearblog.dev/opensourcegames/)
 <!-- BLOG-POST-END -->

@@ -11,5 +11,5 @@
 
 ## Última publicación en el blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[Videojuegos de código abierto](https://nube.bearblog.dev/opensourcegames/)
+[AVISO DE MIGRACIÓN DEL BLOG](https://nube.bearblog.dev/adiosbear/)
 <!-- BLOG-POST-END -->

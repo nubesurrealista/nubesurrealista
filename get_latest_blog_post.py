@@ -1,7 +1,7 @@
 import requests
 
 def get_latest_blog_post():
-    rss_feed_url = "https://nube.bearblog.dev/feed"
+    rss_feed_url = "https://nube.codeberg.page/blog/index.xml"
     response = requests.get(f"https://api.rss2json.com/v1/api.json?rss_url={rss_feed_url}")
     data = response.json()
     latest_post = data['items'][0]

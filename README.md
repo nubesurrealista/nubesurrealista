@@ -11,5 +11,5 @@
 
 ## Última publicación en el blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[AVISO DE MIGRACIÓN DEL BLOG](https://nube.bearblog.dev/adiosbear/)
+[Sobre mí](https://nube.codeberg.page/blog/about/)
 <!-- BLOG-POST-END -->

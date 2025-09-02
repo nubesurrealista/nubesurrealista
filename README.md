@@ -11,5 +11,5 @@
 
 ## Última publicación en el blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[Sobre mí](https://nube.codeberg.page/blog/about/)
+[Cambios](https://nube.codeberg.page/blog/update/)
 <!-- BLOG-POST-END -->

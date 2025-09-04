@@ -9,7 +9,7 @@
 
 ![Stats2](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nubesurrealista&theme=material_palenight)
 
-## Última publicación en el blog - Last blog post - 我博客的最后一篇
+## Última publicación en mi blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
 [Cambios](https://nube.codeberg.page/blog/update/)
 <!-- BLOG-POST-END -->

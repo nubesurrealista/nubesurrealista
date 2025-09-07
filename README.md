@@ -11,5 +11,5 @@
 
 ## Última publicación en mi blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[Dos años sin Twitter](https://nube.codeberg.page/blog/twitter/)
+[Voces del desarrollo indie](https://nube.codeberg.page/blog/indie/)
 <!-- BLOG-POST-END -->

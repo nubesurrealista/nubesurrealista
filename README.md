@@ -11,5 +11,5 @@
 
 ## Última publicación en mi blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[Voces del desarrollo indie](https://nube.codeberg.page/blog/indie/)
+[Hablemos sobre DNS](https://nube.codeberg.page/blog/dns/)
 <!-- BLOG-POST-END -->

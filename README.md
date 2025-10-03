@@ -11,5 +11,5 @@
 
 ## Última publicación en mi blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[Hablemos sobre DNS](https://nube.codeberg.page/blog/dns/)
+[Adiós Bluesky, hola Wafrn](https://nube.codeberg.page/blog/wafrn/)
 <!-- BLOG-POST-END -->

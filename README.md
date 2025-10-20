@@ -11,5 +11,5 @@
 
 ## Última publicación en mi blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[Adiós Bluesky, hola Wafrn](https://nube.codeberg.page/blog/wafrn/)
+[Fluentflame, nuestro lector RSS](https://nube.codeberg.page/blog/fluentflame/)
 <!-- BLOG-POST-END -->

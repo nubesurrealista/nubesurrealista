@@ -11,5 +11,5 @@
 
 ## Última publicación en mi blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[Fluentflame, nuestro lector RSS](https://nube.codeberg.page/blog/fluentflame/)
+[¿Por qué sigo escribiendo?](https://nube.codeberg.page/blog/escribo/)
 <!-- BLOG-POST-END -->

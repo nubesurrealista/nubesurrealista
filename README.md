@@ -13,5 +13,5 @@
 
 ## Última publicación en mi blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[¿Por qué sigo escribiendo?](https://nube.codeberg.page/blog/escribo/)
+[Un año en Linux](https://nube.codeberg.page/blog/linux/)
 <!-- BLOG-POST-END -->

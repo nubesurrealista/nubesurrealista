@@ -20,7 +20,7 @@ jobs:
         uses: LuciNyan/pixel-profile/action@main
         with:
           outputs: |
-            dist/github-stats-nord.png?username=nubesurrealista&background=%232e3440&color=%23d8dee9&pixelate_avatar=true&dithering=true
+            dist/github-stats-nord.png?username=nubesurrealista&background=%232e3440&color=%2388c0d0&pixelate_avatar=false&dithering=false
           
       - name: push cards to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

@@ -11,5 +11,5 @@
 
 ## Última publicación en mi blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[Software](https://nube.codeberg.page/blog/software/)
+[El desastre de LiteLLM y los agentes de IA](https://nube.codeberg.page/blog/litellm/)
 <!-- BLOG-POST-END -->

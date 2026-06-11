@@ -5,8 +5,6 @@
 ### Traduciendo cosas que me gustan - Translating things I like - 翻译我喜欢的东西
 **ES/EN/CN?**
 
-**Paypal**: https://paypal.me/dsk496
-
 ![Konata Lucky Star](https://media1.tenor.com/m/ROTT22u3Vr0AAAAC/konata-lucky-star.gif)
 
 ## Última publicación en mi blog - Last blog post - 我博客的最后一篇

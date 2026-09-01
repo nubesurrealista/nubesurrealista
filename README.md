@@ -9,5 +9,5 @@
 
 ## Última publicación en mi blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[Alternativas](https://nube.codeberg.page/blog/build/)
+[Cambiar servicios en la nube por software sin conexión](https://nube.codeberg.page/blog/offline/)
 <!-- BLOG-POST-END -->

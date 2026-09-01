@@ -2,7 +2,7 @@ name: Update README with latest blog post
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Ejecutar todos los días a medianoche
+    - cron: "0 0 * * 1"
   push:
     branches:
       - main

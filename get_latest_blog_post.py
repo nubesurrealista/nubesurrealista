@@ -2,7 +2,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 def get_latest_blog_post():
-    rss_feed_url = "https://nube.codeberg.page/blog/index.xml"
+    rss_feed_url = "https://nube.codeberg.page/index.xml"
     req = urllib.request.Request(
         rss_feed_url, 
         headers={'User-Agent': 'Mozilla/5.0'}

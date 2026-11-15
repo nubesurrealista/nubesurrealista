@@ -13,5 +13,5 @@
 
 ## Última publicación en mi blog - Last blog post - 我博客的最后一篇
 <!-- BLOG-POST-START -->
-[Cambiar servicios en la nube por software sin conexión](https://nube.codeberg.page/blog/offline/)
+[La creatividad no puede forzarse](https://nube.codeberg.page/blog/creatividad.html)
 <!-- BLOG-POST-END -->

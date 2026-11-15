@@ -1,0 +1,154 @@
+name = "Terminal Nord"
+font = "JetBrains Mono, monospace"
+
+[canvas]
+width = 800
+height = 400
+min_width = 420
+min_height = 260
+
+[vars]
+pad = 20
+head_y = "{canvas.height * 0.07}"
+stat_y = "{canvas.height * 0.135}"
+line = "{canvas.height * 0.045}"
+rule_y = "{canvas.height * 0.31}"
+top_y = "{canvas.height * 0.365}"
+bar_x = "{canvas.width * 0.26}"
+bar_max = "{canvas.width * 0.62}"
+
+[dark]
+background = "#2e3440"
+foreground = "#d8dee9"
+accent = "#88c0d0"
+
+[dark.palette]
+dim = "#81a1c1"
+
+[light]
+background = "#eceff4"
+foreground = "#2e3440"
+accent = "#5e81ac"
+
+[light.palette]
+dim = "#4c566a"
+
+# Terminal frame.
+[[layer]]
+mark = "rect"
+[layer.encode]
+x = 2
+y = 2
+width = "{canvas.width - 4}"
+height = "{canvas.height - 4}"
+fill = "none"
+stroke = "{palette.foreground}"
+stroke_width = 1
+opacity = 0.3
+
+[[layer]]
+mark = "text"
+[layer.encode]
+x = "{vars.pad}"
+y = "{vars.head_y}"
+content = "> ghpulse --user {user.login} --scene terminal-nord"
+size = 12
+fill = "{palette.foreground}"
+
+[[layer]]
+mark = "text"
+[layer.encode]
+x = "{vars.pad}"
+y = "{vars.stat_y}"
+content = "REPOS:    {totals.repos}"
+size = 11
+fill = "{palette.foreground}"
+
+[[layer]]
+mark = "text"
+[layer.encode]
+x = "{vars.pad}"
+y = "{vars.stat_y + vars.line}"
+content = "STARS:    {totals.stars}"
+size = 11
+fill = "{palette.accent}"
+
+[[layer]]
+mark = "text"
+[layer.encode]
+x = "{vars.pad}"
+y = "{vars.stat_y + vars.line * 2}"
+content = "COMMITS:  {totals.commits}"
+size = 11
+fill = "{palette.foreground}"
+
+[[layer]]
+mark = "text"
+[layer.encode]
+x = "{vars.pad}"
+y = "{vars.stat_y + vars.line * 3}"
+content = "ALL-TIME: {totals.contributions}"
+size = 11
+fill = "{palette.foreground}"
+
+[[layer]]
+mark = "line"
+[layer.encode]
+x1 = "{vars.pad}"
+y1 = "{vars.rule_y}"
+x2 = "{canvas.width - vars.pad}"
+y2 = "{vars.rule_y}"
+stroke = "{palette.foreground}"
+stroke_width = 0.5
+opacity = 0.3
+
+[[layer]]
+mark = "text"
+[layer.encode]
+x = "{vars.pad}"
+y = "{vars.top_y}"
+content = "> top languages"
+size = 11
+fill = "{palette.accent}"
+
+# Language rows, stacked to fill the remaining height.
+[[layer]]
+data = "languages"
+mark = "text"
+layout = "stack"
+limit = 12
+region = { y = 0.42, height = 0.53, inset = 0 }
+[layer.encode]
+x = "{vars.pad}"
+y = "{slot.y + slot.height * 0.7}"
+content = "{name}"
+size = 10
+fill = "{contrast(pick(row.index, '#bf616a', '#d08770', '#ebcb8b', '#a3be8c', '#b48ead', '#88c0d0', '#81a1c1', '#5e81ac'), palette.background, 3)}"
+
+[[layer]]
+data = "languages"
+mark = "rect"
+layout = "stack"
+limit = 12
+region = { y = 0.42, height = 0.53, inset = 0 }
+[layer.encode]
+x = "{vars.bar_x}"
+y = "{slot.y + slot.height * 0.35}"
+width = "{max(vars.bar_max * (0.10 + 0.90 * percentage.norm), 2)}"
+height = "{max(slot.height * 0.45, 3)}"
+fill = "{contrast(pick(row.index, '#bf616a', '#d08770', '#ebcb8b', '#a3be8c', '#b48ead', '#88c0d0', '#81a1c1', '#5e81ac'), palette.background, 3)}"
+radius = 1
+
+[[layer]]
+data = "languages"
+mark = "text"
+layout = "stack"
+limit = 12
+region = { y = 0.42, height = 0.53, inset = 0 }
+[layer.encode]
+x = "{vars.bar_x + max(vars.bar_max * (0.10 + 0.90 * percentage.norm), 2) + 8}"
+y = "{slot.y + slot.height * 0.7}"
+content = "{round(percentage * 10) / 10}%"
+size = 9
+fill = "{palette.foreground}"
+opacity = 0.6

@@ -1,0 +1,51 @@
+name: ghpulse
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    if: github.event_name == 'schedule' || github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Render terminal (dark)
+        uses: QaidVoid/ghpulse@5d2f195817f036b31c892cd7c300a9056240ecab # 0.2.1
+        with:
+          token: ${{ secrets.PIXEL_CARD_TOKEN }}
+          scene: assets/ghpulse/terminal-nord.toml
+          output-dir: assets/ghpulse
+          version: "0.2.1"
+
+      - name: Render terminal (light)
+        uses: QaidVoid/ghpulse@5d2f195817f036b31c892cd7c300a9056240ecab # 0.2.1
+        with:
+          token: ${{ secrets.PIXEL_CARD_TOKEN }}
+          scene: assets/ghpulse/terminal-nord.toml
+          light: "true"
+          output-dir: assets/ghpulse
+          version: "0.2.1"
+
+      - name: Commit generated SVGs
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/ghpulse/terminal-nord.svg assets/ghpulse/terminal-nord-light.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update ghpulse card"
+          git pull --rebase origin main
+          git push
